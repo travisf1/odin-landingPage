@@ -1,4 +1,90 @@
-img {
+
+body {
+    min-height: 100vh;
+    margin: 0;
+
+    
+    display: flex; 
+    flex-direction: column;
+    
+    
+    
+}
+
+.hero {
+
+    /*
+    display: flex;
+    flex-wrap: wrap;
+
+    
+    height: 32vh;
+*/
+}
+
+
+.header {
+display: flex;
+justify-content: space-between;
+
+}
+
+
+
+.header-links {
+    display: flex;
+    
+}
+
+
+.hero-main {
+display: flex;
+
+}
+
+
+/*
+.body-one {
+    height: 25vh;
+}
+
+.body-two {
+height: 25vh;
+}
+
+.body-three {
+    height: 20vh;
+}
+
+
+*/
+.footer {
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+a {
+    text-decoration: none;
+    
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-pic {
     width: 300px;
     height: 150px;
+}
+
+
+.pic-body {
+    width: 50px;
+    height: 50px;
 }
